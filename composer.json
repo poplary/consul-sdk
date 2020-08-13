@@ -1,0 +1,17 @@
+{
+    "name": "poplary/consul-sdk",
+    "description": "Consul SDK",
+    "keywords": ["consul"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.5",
+        "guzzlehttp/guzzle": "^6.0",
+        "psr/log": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Poplary\\Consul\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
